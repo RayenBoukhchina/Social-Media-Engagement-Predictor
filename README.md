@@ -25,7 +25,9 @@ Un modèle de Deep Learning pour prédire la popularité des publications sur le
 
 ### Entraînement du modèle :
 ```python
-python src/train.py --data_path data/sentimentdataset.csv --epochs 50
+python src/train.py --data_path data/sentimentdataset.csv --epochs 50.
+    
+```
 
 ##  Prédiction
 
@@ -41,3 +43,7 @@ result = predict_engagement(
     platform="Twitter"
 )
 print(f"Likes prédits : {result:.0f}")
+
+```
+
+
